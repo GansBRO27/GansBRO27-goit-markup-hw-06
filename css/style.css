@@ -790,10 +790,13 @@ line-height:0.07;
 letter-spacing: 0.01em;
 color: var(--primary-text-color);
 }
-
+.area-label-style {
+  display: block;
+  margin-bottom: 4px;
+}
 .text-area-label {
 
-margin-bottom: 4px;
+
 font-size: 12px;
 line-height: 0.07;
 letter-spacing: 0.01em;
@@ -868,7 +871,7 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-decoration: underline ;
-color:#2196F3 ;
+color: var(--fover-focus-color) ;
 
 }
 .submit-button:hover {
